@@ -64,7 +64,7 @@ OpenCV is an image processing library. It contains a large collection of image p
 To solve a computational challenge, most of the time you will end up using multiple functions of the
 library. Because of this, passing images to functions is a common practice. We should not forget
 that we are talking about image processing algorithms, which tend to be quite computational heavy.
-The last thing we want to do is further decrease the speed of your program by making unnecessary
+The last thing we want to do is further increase the speed of your program by making unnecessary
 copies of potentially *large* images.
 
 To tackle this issue OpenCV uses a reference counting system. The idea is that each *Mat* object has
